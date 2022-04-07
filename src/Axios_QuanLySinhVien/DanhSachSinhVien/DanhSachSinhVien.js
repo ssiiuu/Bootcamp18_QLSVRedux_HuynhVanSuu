@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ItemSinhVien from "../ItemSinhVien/ItemSinhVien";
-import { quanLySVReducer } from "../Redux/reducers/quanLySVReducer";
 class DanhSachSinhVien extends Component {
   render() {
     // let { dssv } = this.props;

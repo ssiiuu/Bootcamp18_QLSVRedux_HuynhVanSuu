@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { NavLink } from "react-router-dom";
 import {
   SUA_SINH_VIEN,
   XOA_SINH_VIEN,
@@ -32,6 +33,11 @@ class ItemSinhVien extends Component {
             }}
           >
             Xóa
+          </button>
+          <button className="btn btn-info ml-1">
+            <NavLink className={"text-white"} to={`/detail/${sv.id}`}>
+              Xem chi tiết
+            </NavLink>
           </button>
         </td>
       </tr>
